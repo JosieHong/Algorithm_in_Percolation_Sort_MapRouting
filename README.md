@@ -46,13 +46,13 @@ Implement **Insertion Sort(IS)**, **Top-down Mergesort(TDM)**, **Bottom-up Merge
 
 The Dijkstra shortest path algorithm was improved by testing the US mainland file usa.txt (containing 87,575 intersections and 121,961 roads) to quickly answer the shortest path query for vertex pairs on this network. Assume that all x and y coordinates are integers between 0 and 10,000. 
 
-### Results
+### Improvement
 
 1> **Reduce the number of vertices examined** and stop searching once the shortest path to the destination is found. 
 
 By this method, the runtime of each shortest path query can be made proportional to E' log V', where E' and V' are Dijkstra algorithm checks. The number of edges and vertices. And just re-initialize those values that were changed in the previous query to speed up the query. 
 
-2> The **A* algorithm** uses the European geometry of the problem to reduce search time. 
+2> The **A\* algorithm** uses the European geometry of the problem to reduce search time. 
 
 For general graphs, Dijkstra relaxes the edge v-w by updating $d[w]$ to $d[v] + \text{the distance from v to w}$. For maps, update $d[w]$ to $d[v] + \text{the distance from v to w} + \text{Euclide distance from w to d} — \text{Euclide distance from v to d}$. 
 
