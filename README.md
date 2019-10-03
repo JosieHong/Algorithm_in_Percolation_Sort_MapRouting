@@ -1,4 +1,4 @@
-# Algorithm_Percolation, Sort and MapRouting
+# Algorithm_in_Percolation_Sort_and_MapRouting
 
 Implementation and improvement of some algorithms in the algorithm class. 
 
